@@ -1,6 +1,10 @@
-#jpg 
-
 [Project address](https://github.com/xiaozhuai/imageinfo)
+
+[afl_imageinfo](https://github.com/10cksYiqiyinHangzhouTechnology/imageinfo_poc/blob/main/imageinfo)
+
+[asan_imageinfo](https://github.com/10cksYiqiyinHangzhouTechnology/imageinfo_poc/blob/main/asan_imageinfo)
+
+[poc:id02](https://github.com/10cksYiqiyinHangzhouTechnology/imageinfo_poc/blob/main/id02)
 
 # Build original project
 
@@ -19,6 +23,11 @@ set (CMAKE_C_COMPILER "/usr/local/bin/afl-clang-fast")
 set (CMAKE_CXX_COMPILER "/usr/local/bin/afl-clang-fast++")
 ```
 
+# Run
+
+```
+./imageinfo id02
+```
 
 # 02
 
